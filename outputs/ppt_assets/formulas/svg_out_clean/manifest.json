@@ -1,0 +1,114 @@
+[
+  {
+    "index": 1,
+    "id": "公式01",
+    "slide": "C2_设备温度异常识别",
+    "title": "温度阈值判定函数",
+    "svg_file": "formula_01.svg",
+    "latex": "A(T) = \\begin{cases} 1, & T > T_{\\text{threshold}} \\\\ 0, & T \\leq T_{\\text{threshold}} \\end{cases}, \\quad T_{\\text{threshold}} = 85°\\text{C}"
+  },
+  {
+    "index": 2,
+    "id": "公式02",
+    "slide": "C2_设备温度异常识别",
+    "title": "异常率统计",
+    "svg_file": "formula_02.svg",
+    "latex": "R_{\\text{anomaly}} = \\frac{N_{\\text{alert}}}{N_{\\text{total}}} \\times 100\\% = \\frac{127}{5760} \\approx 2.21\\%"
+  },
+  {
+    "index": 3,
+    "id": "公式03",
+    "slide": "C2_设备温度异常识别",
+    "title": "滑动窗口移动平均（温度趋势预测）",
+    "svg_file": "formula_03.svg",
+    "latex": "\\text{MA}_t = \\frac{1}{k}\\sum_{i=0}^{k-1} T_{t-i}, \\quad k = 5"
+  },
+  {
+    "index": 4,
+    "id": "公式04",
+    "slide": "C2_设备温度异常识别",
+    "title": "指数平滑预测模型",
+    "svg_file": "formula_04.svg",
+    "latex": "\\hat{T}_{t+1} = \\alpha \\cdot T_t + (1 - \\alpha) \\cdot \\hat{T}_t, \\quad \\alpha \\in (0, 1)"
+  },
+  {
+    "index": 5,
+    "id": "公式05",
+    "slide": "M1_手写记录整理Excel",
+    "title": "销售额汇总",
+    "svg_file": "formula_05.svg",
+    "latex": "\\text{Revenue} = \\sum_{i=1}^{n} P_i \\times Q_i"
+  },
+  {
+    "index": 6,
+    "id": "公式06",
+    "slide": "M1_手写记录整理Excel",
+    "title": "销量占比",
+    "svg_file": "formula_06.svg",
+    "latex": "S_i = \\frac{Q_i}{\\sum_{j=1}^{n} Q_j} \\times 100\\%"
+  },
+  {
+    "index": 7,
+    "id": "公式07",
+    "slide": "M1_手写记录整理Excel",
+    "title": "移动平均预测（下周销量预测）",
+    "svg_file": "formula_07.svg",
+    "latex": "\\hat{Q}_{t+1} = \\frac{1}{m}\\sum_{i=0}^{m-1} Q_{t-i}, \\quad m = 3"
+  },
+  {
+    "index": 8,
+    "id": "公式08",
+    "slide": "M2_PDF入库单提取Excel",
+    "title": "数据提取准确率",
+    "svg_file": "formula_08.svg",
+    "latex": "\\text{Accuracy} = \\frac{N_{\\text{correct}}}{N_{\\text{total}}} \\times 100\\% = \\frac{35}{36} \\approx 97.2\\%"
+  },
+  {
+    "index": 9,
+    "id": "公式09",
+    "slide": "M2_PDF入库单提取Excel",
+    "title": "异常检出率",
+    "svg_file": "formula_09.svg",
+    "latex": "\\text{Detection Rate} = \\frac{N_{\\text{detected}}}{N_{\\text{actual}}} \\times 100\\% = \\frac{1}{1} = 100\\%"
+  },
+  {
+    "index": 10,
+    "id": "公式10",
+    "slide": "M2_PDF入库单提取Excel",
+    "title": "库存周转率预测",
+    "svg_file": "formula_10.svg",
+    "latex": "\\text{ITR} = \\frac{\\text{COGS}}{\\text{Avg Inventory}} = \\frac{\\sum_{i} Q_i \\times C_i}{\\frac{1}{2}(I_{\\text{start}} + I_{\\text{end}})}"
+  },
+  {
+    "index": 11,
+    "id": "公式11",
+    "slide": "M3_用户反馈运营汇报",
+    "title": "平均响应时间",
+    "svg_file": "formula_11.svg",
+    "latex": "\\bar{t}_{\\text{response}} = \\frac{1}{N}\\sum_{i=1}^{N} t_i = \\frac{1}{200}\\sum_{i=1}^{200} t_i"
+  },
+  {
+    "index": 12,
+    "id": "公式12",
+    "slide": "M3_用户反馈运营汇报",
+    "title": "客户满意度（CSAT）",
+    "svg_file": "formula_12.svg",
+    "latex": "\\text{CSAT} = \\frac{1}{N}\\sum_{i=1}^{N} s_i = \\frac{\\sum_{j=1}^{5} j \\cdot n_j}{\\sum_{j=1}^{5} n_j}, \\quad s_i \\in \\{1,2,3,4,5\\}"
+  },
+  {
+    "index": 13,
+    "id": "公式13",
+    "slide": "M3_用户反馈运营汇报",
+    "title": "月环比增长率",
+    "svg_file": "formula_13.svg",
+    "latex": "g_{\\text{MoM}} = \\frac{F_{\\text{this month}} - F_{\\text{last month}}}{F_{\\text{last month}}} \\times 100\\%"
+  },
+  {
+    "index": 14,
+    "id": "公式14",
+    "slide": "M3_用户反馈运营汇报",
+    "title": "趋势预测（线性回归）",
+    "svg_file": "formula_14.svg",
+    "latex": "\\hat{y}_t = \\beta_0 + \\beta_1 \\cdot t, \\quad \\beta_1 = \\frac{\\sum_{i}(t_i - \\bar{t})(y_i - \\bar{y})}{\\sum_{i}(t_i - \\bar{t})^2}"
+  }
+]

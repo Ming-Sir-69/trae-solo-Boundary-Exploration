@@ -1,0 +1,53 @@
+{
+  "testName": "Trae SOLO 文件预览测试",
+  "version": "1.0.0",
+  "date": "2026-04-18",
+  "description": "JSON 格式文件预览测试",
+  "project": {
+    "name": "Trae SOLO 能力测试",
+    "phase": "Q4",
+    "category": "文件预览"
+  },
+  "testFiles": [
+    {
+      "id": 1,
+      "filename": "test.html",
+      "type": "HTML",
+      "size": "约 2KB",
+      "status": "待测试"
+    },
+    {
+      "id": 2,
+      "filename": "test.md",
+      "type": "Markdown",
+      "size": "约 1KB",
+      "status": "待测试"
+    },
+    {
+      "id": 3,
+      "filename": "test.json",
+      "type": "JSON",
+      "size": "约 1KB",
+      "status": "待测试"
+    },
+    {
+      "id": 4,
+      "filename": "test.csv",
+      "type": "CSV",
+      "size": "约 0.5KB",
+      "status": "待测试"
+    },
+    {
+      "id": 5,
+      "filename": "test.pdf",
+      "type": "PDF",
+      "size": "约 10KB",
+      "status": "待测试"
+    }
+  ],
+  "metadata": {
+    "author": "Trae SOLO AI Agent",
+    "environment": "Linux",
+    "language": "zh-CN"
+  }
+}

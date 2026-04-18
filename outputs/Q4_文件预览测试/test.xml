@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Trae SOLO 文件预览测试 - XML -->
+<testProject>
+    <metadata>
+        <name>Trae SOLO 能力测试</name>
+        <phase>Q4</phase>
+        <category>文件预览</category>
+        <date>2026-04-18</date>
+        <author>Trae SOLO AI Agent</author>
+    </metadata>
+
+    <testFiles>
+        <file id="1">
+            <filename>test.html</filename>
+            <type>HTML</type>
+            <creator>Write工具</creator>
+            <status>待测试</status>
+        </file>
+        <file id="2">
+            <filename>test.md</filename>
+            <type>Markdown</type>
+            <creator>Write工具</creator>
+            <status>待测试</status>
+        </file>
+        <file id="3">
+            <filename>test.json</filename>
+            <type>JSON</type>
+            <creator>Write工具</creator>
+            <status>待测试</status>
+        </file>
+        <file id="4">
+            <filename>test.xml</filename>
+            <type>XML</type>
+            <creator>Write工具</creator>
+            <status>待测试</status>
+        </file>
+        <file id="5">
+            <filename>test.yaml</filename>
+            <type>YAML</type>
+            <creator>Write工具</creator>
+            <status>待测试</status>
+        </file>
+    </testFiles>
+
+    <summary>
+        <totalFiles>22</totalFiles>
+        <localFiles>12</localFiles>
+        <scriptGenerated>4</scriptGenerated>
+        <aiGenerated>2</aiGenerated>
+        <downloaded>4</downloaded>
+    </summary>
+</testProject>

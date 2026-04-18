@@ -1,0 +1,14 @@
+[
+  {"id": 1, "name": "无线蓝牙耳机", "price": 299, "category": "数码配件", "tags": ["热销", "新品"], "image": "https://picsum.photos/seed/prod1/200/200"},
+  {"id": 2, "name": "机械键盘 RGB", "price": 459, "category": "电脑外设", "tags": ["热销"], "image": "https://picsum.photos/seed/prod2/200/200"},
+  {"id": 3, "name": "便携充电宝 20000mAh", "price": 189, "category": "数码配件", "tags": ["促销"], "image": "https://picsum.photos/seed/prod3/200/200"},
+  {"id": 4, "name": "智能手表 Pro", "price": 1299, "category": "智能穿戴", "tags": ["新品", "热销"], "image": "https://picsum.photos/seed/prod4/200/200"},
+  {"id": 5, "name": "USB-C 扩展坞", "price": 359, "category": "电脑外设", "tags": [], "image": "https://picsum.photos/seed/prod5/200/200"},
+  {"id": 6, "name": "降噪耳罩", "price": 699, "category": "数码配件", "tags": ["促销"], "image": "https://picsum.photos/seed/prod6/200/200"},
+  {"id": 7, "name": "4K 显示器 27寸", "price": 2499, "category": "电脑外设", "tags": ["新品"], "image": "https://picsum.photos/seed/prod7/200/200"},
+  {"id": 8, "name": "无线鼠标 静音", "price": 129, "category": "电脑外设", "tags": ["热销", "促销"], "image": "https://picsum.photos/seed/prod8/200/200"},
+  {"id": 9, "name": "平板支架 铝合金", "price": 89, "category": "数码配件", "tags": [], "image": "https://picsum.photos/seed/prod9/200/200"},
+  {"id": 10, "name": "Type-C 数据线 1.5m", "price": 39, "category": "数码配件", "tags": ["热销"], "image": "https://picsum.photos/seed/prod10/200/200"},
+  {"id": 11, "name": "智能台灯 护眼", "price": 259, "category": "智能家居", "tags": ["新品"], "image": "https://picsum.photos/seed/prod11/200/200"},
+  {"id": 12, "name": "蓝牙音箱 防水", "price": 349, "category": "智能家居", "tags": ["促销", "热销"], "image": "https://picsum.photos/seed/prod12/200/200"}
+]

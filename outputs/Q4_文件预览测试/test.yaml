@@ -1,0 +1,61 @@
+# Trae SOLO 文件预览测试 - YAML 配置文件
+
+project:
+  name: "Trae SOLO 能力测试"
+  phase: "Q4"
+  category: "文件预览"
+  date: "2026-04-18"
+  author: "Trae SOLO AI Agent"
+  version: "1.0.0"
+
+database:
+  host: "localhost"
+  port: 5432
+  name: "trae_test_db"
+  credentials:
+    username: "admin"
+    password: "encrypted_password_here"
+
+server:
+  host: "0.0.0.0"
+  port: 8080
+  debug: true
+  cors:
+    enabled: true
+    origins:
+      - "http://localhost:3000"
+      - "http://localhost:8080"
+
+logging:
+  level: "INFO"
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  file: "/var/log/trae/test.log"
+  max_size: "10MB"
+  backup_count: 5
+
+features:
+  - name: "文件预览"
+    enabled: true
+    supported_formats:
+      - "html"
+      - "md"
+      - "json"
+      - "csv"
+      - "txt"
+      - "xml"
+      - "yaml"
+      - "py"
+      - "js"
+      - "ts"
+      - "log"
+      - "svg"
+      - "pdf"
+      - "docx"
+      - "pptx"
+      - "xlsx"
+      - "png"
+      - "jpg"
+      - "gif"
+      - "webp"
+      - "mp4"
+      - "mp3"
